@@ -1,0 +1,25 @@
+.button {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+.blue {
+  background-color: #469bd1;
+  border: 1px solid #afcde3;
+}
+.blue:hover {
+  color: #222;
+  background-color: #eee;
+  border: 1px solid #eee;
+  transition: all 0.1s ease-in-out;
+}
+.blue:focus {
+  outline: #ccc solid 1px;
+}
+
+.red {
+  background-color: #e8554e;
+  border: 1px solid #e8554e;
+}
