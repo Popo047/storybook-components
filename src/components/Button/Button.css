@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 .button {
   padding: 5px 10px;
   text-decoration: none;
   font-weight: 400;
   cursor: pointer;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 .blue {
   background-color: #469bd1;
@@ -24,6 +26,11 @@
   border: 1px solid #e8554e;
 }
 .red:hover {
+  background-color: #c78787;
+  border: 1px solid #c78787;
+  color: #222;
 }
 .red:focus {
+  outline: #ccc solid 1px;
+  transition: all 0.1s ease-in-out;
 }
